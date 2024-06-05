@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="src\css\style.css">
+    <link rel="stylesheet" href="src\css\hamster loading.css">
+    <link rel="stylesheet" href="src\css\astronaut loading.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section class="loading-section">
+        <div class="hamster-loading">
+            <div id="loading">Loading...</div>
+            <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+                <div class="wheel"></div>
+                <div class="hamster">
+                    <div class="hamster__body">
+                        <div class="hamster__head">
+                            <div class="hamster__ear"></div>
+                            <div class="hamster__eye"></div>
+                            <div class="hamster__nose"></div>
+                        </div>
+                        <div class="hamster__limb hamster__limb--fr"></div>
+                        <div class="hamster__limb hamster__limb--fl"></div>
+                        <div class="hamster__limb hamster__limb--br"></div>
+                        <div class="hamster__limb hamster__limb--bl"></div>
+                        <div class="hamster__tail"></div>
+                    </div>
+                </div>
+                <div class="spoke"></div>
+            </div>
+        </div>
+
+        <div class="astronaut-loading">
+            <div class="box-of-star1">
+                <div class="star star-position1"></div>
+                <div class="star star-position2"></div>
+                <div class="star star-position3"></div>
+                <div class="star star-position4"></div>
+                <div class="star star-position5"></div>
+                <div class="star star-position6"></div>
+                <div class="star star-position7"></div>
+              </div>
+              <div class="box-of-star2">
+                <div class="star star-position1"></div>
+                <div class="star star-position2"></div>
+                <div class="star star-position3"></div>
+                <div class="star star-position4"></div>
+                <div class="star star-position5"></div>
+                <div class="star star-position6"></div>
+                <div class="star star-position7"></div>
+              </div>
+              <div class="box-of-star3">
+                <div class="star star-position1"></div>
+                <div class="star star-position2"></div>
+                <div class="star star-position3"></div>
+                <div class="star star-position4"></div>
+                <div class="star star-position5"></div>
+                <div class="star star-position6"></div>
+                <div class="star star-position7"></div>
+              </div>
+              <div class="box-of-star4">
+                <div class="star star-position1"></div>
+                <div class="star star-position2"></div>
+                <div class="star star-position3"></div>
+                <div class="star star-position4"></div>
+                <div class="star star-position5"></div>
+                <div class="star star-position6"></div>
+                <div class="star star-position7"></div>
+              </div>
+              <div data-js="astro" class="astronaut">
+                <div class="head"></div>
+                <div class="arm arm-left"></div>
+                <div class="arm arm-right"></div>
+                <div class="body">
+                  <div class="panel"></div>
+                </div>
+                <div class="leg leg-left"></div>
+                <div class="leg leg-right"></div>
+                <div class="schoolbag"></div>
+              </div>
+        </div>
+    </section>
+    
+
+    <div class="main-content">
+        <header>
+            <div class="video-background">
+                <video autoplay muted loop id="background-video">
+                    <source src="src/video/banner.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <h1><strong>Anime</strong>Insights</h1>
+        </header>
+    
+    
+        <div class="anime-content">
+            <aside>
+                <nav>
+                    <h3>Top Anime</h3>
+                    <div id="top-anime-list"> 
+                    </div>
+                </nav>
+
+            </aside>
+    
+            <main>
+                <div class="main-head">
+                    <form class="search-box" id="anime-search-form">
+                        <input 
+                            type="search" 
+                            id="anime-name" 
+                            placeholder="Search for an anime..." 
+                            required>
+                    </form>
+                </div>
+
+                <div class="anime-list">
+                    <div id="anime-results">
+                        <img src="" alt="" id="anime-image">
+                        <h3 id="anime-title"></h3>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
